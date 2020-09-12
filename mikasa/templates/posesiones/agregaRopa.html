@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <form method="post">
+    <label for="tipo">Tipo</label>
+    <input name="tipo" id="tipo" required>
+    <label for="descripcion">descripcion</label>
+    <input name="descripcion" id="descripcion" required>
+    <label for="costo">costo</label>
+    <input name="costo" id="costo" required>
+    <label for="veces">veces</label>
+    <input name="veces" id="veces" required>
+    <label for="comentarios">comentarios</label>
+    <input name="comentarios" id="comentarios" required>
+    <input type="submit" value="Register">
+  </form>
+{% endblock %}
